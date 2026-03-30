@@ -1,14 +1,10 @@
-# [counter1] 11. Design N-bit Synchronous Counter with Enable and Reset
+# [counter1] counter1
 
-**Difficulty:** Easy  
-**Category:** Counter  
+**Difficulty:** Medium  
+**Category:** N/A  
 **Language:** SystemVerilog  
 **Solved:** March 31, 2026  
 **Platform:** [LeetSilicon](https://leetsilicon.com/?view=question&question=counter1)
-
-## Problem Description
-
-Problem Statement
 
 ## Files
 
@@ -18,6 +14,8 @@ Problem Statement
 ## Simulation Results
 
 - **Status:** ✅ Passed
+- **Tests:** 7 passed, 0 failed
+- **Max Cycles:** 10
 - **Lint Warnings:** 0
 
 ## Approach
