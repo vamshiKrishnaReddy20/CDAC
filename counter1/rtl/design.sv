@@ -18,10 +18,12 @@ module sync_counter #(
   output logic [N-1:0] count
 );
 
+
   always_ff @(posedge clk) begin
     if (!rst_n) count <= RESET_VALUE;
     else if(enable) count <= count + 1;
   end
+
 
 endmodule
 
