@@ -24,24 +24,6 @@
 
 ## Waveforms
 
-### Signal List
-
-| Signal | Width | Value |
-|--------|-------|-------|
-| `N` | [31:0] | 4h |
-| `clk` | 1-bit | 1 |
-| `rst_n` | 1-bit | 0 |
-| `enable` | 1-bit | 1 |
-| `count` | [3:0] | 0h |
-| `p` | [31:0] | 6h |
-| `f` | [31:0] | 0h |
-| `N` | [31:0] | 4h |
-| `RESET_VALUE` | [3:0] | 0h |
-| `clk` | 1-bit | 1 |
-| `rst_n` | 1-bit | 0 |
-| `enable` | 1-bit | 1 |
-| `count` | [3:0] | 0h |
-
 ![Simulation Waveform](waveform.png)
 
 ---
