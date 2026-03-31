@@ -24,49 +24,23 @@
 
 ## Waveforms
 
-### Signal List
+### Signal List (top → bottom in waveform)
 
-| # | Signal | Width |
-|---|--------|-------|
-| 1 | `LeetSilicon` | 1-bit |
-| 2 | `Problems` | 1-bit |
-| 3 | `Description` | 1-bit |
-| 4 | `Submissions` | 1-bit |
-| 5 | `Hints` | 1-bit |
-| 6 | `Notes` | 1-bit |
-| 7 | `Solutions` | 1-bit |
-| 8 | `Verilator` | 1-bit |
-| 9 | `BETA` | 1-bit |
-| 10 | `Run` | 1-bit |
-| 11 | `Signal` | 1-bit |
-| 12 | `Value` | 1-bit |
-| 13 | `TOP` | 1-bit |
-| 14 | `clk` | 1-bit |
-| 15 | `rst_n` | 1-bit |
-| 16 | `enable` | 1-bit |
-| 17 | `count` | 1-bit |
-| 18 | `RESET_VALUE` | 1-bit |
-| 19 | `SystemVerilog` | 1-bit |
-| 20 | `module` | 1-bit |
-| 21 | `sync_counter` | 1-bit |
-| 22 | `parameter` | 1-bit |
-| 23 | `int` | 1-bit |
-| 24 | `unsigned` | 1-bit |
-| 25 | `logic` | 1-bit |
-| 26 | `input` | 1-bit |
-| 27 | `output` | 1-bit |
-| 28 | `always_ff` | 1-bit |
-| 29 | `posedge` | 1-bit |
-| 30 | `begin` | 1-bit |
-| 31 | `if` | 1-bit |
-| 32 | `else` | 1-bit |
-| 33 | `end` | 1-bit |
-| 34 | `endmodule` | 1-bit |
-| 35 | `Home` | 1-bit |
-| 36 | `Projects` | 1-bit |
-| 37 | `Progress` | 1-bit |
-| 38 | `Ranks` | 1-bit |
-| 39 | `Discuss` | 1-bit |
+| # | Signal | Hierarchy | Width | Value |
+|---|--------|-----------|-------|-------|
+| 1 | **`N`** | `TOP.tb.N` | [31:0] | 4h |
+| 2 | **`clk`** | `TOP.tb.clk` | 1-bit | 0 |
+| 3 | **`rst_n`** | `TOP.tb.rst_n` | 1-bit | 0 |
+| 4 | **`enable`** | `TOP.tb.enable` | 1-bit | 0 |
+| 5 | **`count`** | `TOP.tb.count` | [3:0] | 0h |
+| 6 | **`p`** | `TOP.tb.p` | [31:0] | 0h |
+| 7 | **`f`** | `TOP.tb.f` | [31:0] | 0h |
+| 8 | **`N`** | `TOP.tb.dut.N` | [31:0] | 4h |
+| 9 | **`RESET_VALUE`** | `TOP.tb.dut.RESET_VALUE` | [3:0] | 0h |
+| 10 | **`clk`** | `TOP.tb.dut.clk` | 1-bit | 0 |
+| 11 | **`rst_n`** | `TOP.tb.dut.rst_n` | 1-bit | 0 |
+| 12 | **`enable`** | `TOP.tb.dut.enable` | 1-bit | 0 |
+| 13 | **`count`** | `TOP.tb.dut.count` | [3:0] | 0h |
 
 ![Simulation Waveform](waveform.png)
 
