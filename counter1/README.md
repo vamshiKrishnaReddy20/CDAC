@@ -8,8 +8,6 @@
 
 ## Problem Description
 
-## 
-
 ### Problem Statement
 
 Implement a parameterizable N-bit up counter with enable and reset.
