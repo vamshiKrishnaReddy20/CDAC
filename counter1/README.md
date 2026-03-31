@@ -52,13 +52,6 @@ Wraps from 2^N-1 to 0 automatically
 
 - Test Case 5 - Continuous Counting: Enable always high. Observe count sequence: 0,1,2,3,...,15,0,1,... for N=4.
 
-## Files
-
-| File | Type |
-|------|------|
-| [`rtl/design.sv`](rtl/design.sv) | RTL Design |
-| [`dv/testbench.sv`](dv/testbench.sv) | Testbench |
-
 ## Simulation Results
 
 | Metric | Value |
