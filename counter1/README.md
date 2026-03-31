@@ -24,23 +24,23 @@
 
 ## Waveforms
 
-### Signal List (top → bottom in waveform)
+### Signal List
 
-| # | Signal | Hierarchy | Width | Value |
-|---|--------|-----------|-------|-------|
-| 1 | **`N`** | `TOP.tb.N` | [31:0] | 4h |
-| 2 | **`clk`** | `TOP.tb.clk` | 1-bit | 0 |
-| 3 | **`rst_n`** | `TOP.tb.rst_n` | 1-bit | 0 |
-| 4 | **`enable`** | `TOP.tb.enable` | 1-bit | 0 |
-| 5 | **`count`** | `TOP.tb.count` | [3:0] | 0h |
-| 6 | **`p`** | `TOP.tb.p` | [31:0] | 0h |
-| 7 | **`f`** | `TOP.tb.f` | [31:0] | 0h |
-| 8 | **`N`** | `TOP.tb.dut.N` | [31:0] | 4h |
-| 9 | **`RESET_VALUE`** | `TOP.tb.dut.RESET_VALUE` | [3:0] | 0h |
-| 10 | **`clk`** | `TOP.tb.dut.clk` | 1-bit | 0 |
-| 11 | **`rst_n`** | `TOP.tb.dut.rst_n` | 1-bit | 0 |
-| 12 | **`enable`** | `TOP.tb.dut.enable` | 1-bit | 0 |
-| 13 | **`count`** | `TOP.tb.dut.count` | [3:0] | 0h |
+| Signal | Width | Value |
+|--------|-------|-------|
+| `N` | [31:0] | 4h |
+| `clk` | 1-bit | 0 |
+| `rst_n` | 1-bit | 0 |
+| `enable` | 1-bit | 0 |
+| `count` | [3:0] | 0h |
+| `p` | [31:0] | 0h |
+| `f` | [31:0] | 0h |
+| `N` | [31:0] | 4h |
+| `RESET_VALUE` | [3:0] | 0h |
+| `clk` | 1-bit | 0 |
+| `rst_n` | 1-bit | 0 |
+| `enable` | 1-bit | 0 |
+| `count` | [3:0] | 0h |
 
 ![Simulation Waveform](waveform.png)
 
