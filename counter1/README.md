@@ -1,4 +1,4 @@
-# [counter1] Hardware Interview Preparation
+# [counter1] 11. Design N-bit Synchronous Counter with Enable and Reset
 
 | Property | Value |
 |----------|-------|
