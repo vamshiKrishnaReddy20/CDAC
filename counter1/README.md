@@ -1,4 +1,4 @@
-# [counter1] counter1
+# [counter1] Hardware Interview Preparation
 
 | Property | Value |
 |----------|-------|
